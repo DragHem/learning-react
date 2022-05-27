@@ -1,8 +1,8 @@
 import "./ExpenseDate.css";
 
 const ExpenseDate = ({ date }) => {
-  const month = date.toLocaleString("pl-PL", { month: "long" }).toUpperCase();
-  const day = date.toLocaleDateString("pl-PL", { day: "2-digit" });
+  const month = date.toLocaleString("en-GB", { month: "long" }).toUpperCase();
+  const day = date.toLocaleDateString("en-GB", { day: "2-digit" });
   const year = date.getFullYear();
 
   return (
