@@ -14,10 +14,10 @@ const App = () => {
   };
 
   return (
-    <div>
+    <>
       <AddUser onAddUser={addUserHandler} />
       {usersList.length > 0 ? <UserList users={usersList} /> : null}
-    </div>
+    </>
   );
 };
 
